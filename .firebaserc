@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "staging": "mars-rover-19dbb",
+    "default": "mars-rover-19dbb"
+  }
+}

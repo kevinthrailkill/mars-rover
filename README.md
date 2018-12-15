@@ -1,6 +1,6 @@
 ## Firebase Copy
 
-You can view a working copy online at:
+You can view a working copy online at: https://mars-rover-19dbb.firebaseapp.com/
 
 ## Available Scripts
 
