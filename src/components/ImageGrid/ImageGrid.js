@@ -32,7 +32,7 @@ const ImageGrid = props => {
   if (photos.length === 0) {
     return (
       <div className={classes.root}>
-        <Typography variant="title" color="inherit" noWrap>
+        <Typography variant="title" color="inherit">
           No Photos For The Selected Rover On The Selected Date
         </Typography>
       </div>
