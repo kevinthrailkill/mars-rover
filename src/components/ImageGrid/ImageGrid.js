@@ -19,6 +19,9 @@ const styles = theme => ({
   }
 });
 
+/**
+ * Component in charge of displaying the image grid in a list
+ */
 const ImageGrid = props => {
   const { classes, photos } = props;
 

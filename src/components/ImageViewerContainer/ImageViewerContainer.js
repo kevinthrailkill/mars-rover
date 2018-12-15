@@ -69,6 +69,9 @@ const styles = theme => ({
   }
 });
 
+/**
+ * Main container component where all other components live
+ */
 class ImageViewerContainer extends Component {
   state = {
     mobileOpen: false,
@@ -87,6 +90,9 @@ class ImageViewerContainer extends Component {
     this.setState(state => ({ mobileOpen: !state.mobileOpen }));
   };
 
+  /**
+   * Handles the rover change and re searches based on search criteria
+   */
   handleRoverChange = rover => {
     this.setState({ selectedRover: rover, mobileOpen: false }, () =>
       this.props.getRoverPhotos({
@@ -96,6 +102,9 @@ class ImageViewerContainer extends Component {
     );
   };
 
+  /**
+   * Handles the date picker change and re searches based on search criteria
+   */
   handleDateChange = date => {
     this.setState({ selectedDate: date, mobileOpen: false }, () =>
       this.props.getRoverPhotos({
